@@ -1,3 +1,10 @@
+# Laravo - Awesome Laravel Admin
+Made with ❤️ by [Triptasoft](https://www.triptasoft.com)
+
+Built with package from [The Control Group](https://www.thecontrolgroup.com)
+
+Laravel Admin & BREAD System (Browse, Read, Edit, Add, & Delete), supporting Laravel 8 and 9!
+
 ## Installation Steps
 
 ### 1. Add the DB Credentials & APP_URL
@@ -6,9 +13,9 @@ Next make sure to create a new database and add your database credentials to you
 
 ```
 DB_HOST=localhost
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
+DB_DATABASE=laravo
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 You will also want to update your website URL inside of the `APP_URL` variable inside the .env file:
@@ -17,7 +24,15 @@ You will also want to update your website URL inside of the `APP_URL` variable i
 APP_URL=http://localhost:8000
 ```
 
-### 2. Run The Installer
+### 2. Run Composer
+
+Make sure you have installed composer, then run composer:
+
+```
+composer install
+```
+
+### 3. Run The Installer
 
 Lastly, we can install Laravo.
 The dummy data will include 1 admin account (if no users already exists), 1 demo page, 4 demo posts, 2 categories and 7 settings.
