@@ -21,3 +21,9 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+// Socialite auth
+Route::middleware('guest')->group(function () {
+    Route::get('admin/auth/google/redirect', [App\Http\Controllers\Auth\SocialiteController::class, 'redirect'])->name('google.login');
+    Route::get('auth/google/callback', [App\Http\Controllers\Auth\SocialiteController::class, 'callback']);
+});
