@@ -50,7 +50,6 @@ class SocialiteController extends Controller
             'password'      => bcrypt($google->getId()),
             'username'      => substr($google->getEmail(), 0, strpos($google->getEmail(), '@')),
             'verified'      => 1,
-            'trial_ends_at' => $trial_ends_at,
             'role'          => $role->id,
         ]);
 
