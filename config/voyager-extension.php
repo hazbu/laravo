@@ -8,7 +8,7 @@ return [
     |
     */
 
-    'legacy_browse_bread' => true,
+    'legacy_browse_bread' => false,
 
     /*
     |
@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'legacy_edit_add_bread' => true,
+    'legacy_edit_add_bread' => false,
 
     /*
     |
@@ -71,5 +71,13 @@ return [
     */
 
     'slug_filenames' => true,
+
+    /*
+    |
+    | Assets path prefix
+    |
+    */
+
+    'assets_path_prefix' => 'admin',
 
 ];
