@@ -10,6 +10,7 @@ return new class extends Migration
      {
          Schema::table('users', function (Blueprint $table) {
              $table->string('provider_id')->nullable()->unique();
+             $table->string('status')->default("INACTIVE");
          });
      }
 
@@ -17,6 +18,7 @@ return new class extends Migration
      {
          Schema::table('users', function (Blueprint $table) {
              $table->dropColumn('provider_id');
+             $table->dropColumn('status');
          });
      }
 };
