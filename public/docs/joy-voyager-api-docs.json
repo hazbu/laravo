@@ -64,6 +64,7 @@
                                 "created_at",
                                 "updated_at",
                                 "provider_id",
+                                "status",
                                 "user_belongsto_role_relationship",
                                 "user_belongstomany_role_relationship"
                             ],

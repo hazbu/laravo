@@ -11,7 +11,7 @@
             "description": "Primary API Server"
         },
         {
-            "url": "http:\/\/localhost:8000",
+            "url": "http:\/\/my-default-host.com",
             "description": "Another API Server"
         }
     ],
@@ -280,6 +280,7 @@
                                 "created_at",
                                 "updated_at",
                                 "provider_id",
+                                "status",
                                 "user_belongsto_role_relationship",
                                 "user_belongstomany_role_relationship"
                             ],
