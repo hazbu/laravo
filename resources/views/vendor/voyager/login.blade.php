@@ -36,7 +36,7 @@
 
         <div style="clear:both"></div>
 
-        <a class="btn login-button" style="background:white;color:grey;border:1px solid grey" href="auth/google/redirect" role="button" style="text-transform:none">
+        <a class="btn login-button" style="background:white;color:grey;border:1px solid grey" href="/auth/google/redirect" role="button" style="text-transform:none">
             <img width="15px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
             Login with Google
         </a>
